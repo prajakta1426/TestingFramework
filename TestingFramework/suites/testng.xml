@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CCST Regression" verbose="1">
+    <test name="Login(browser)">
+        <classes>
+            <class name="com.ccst.tests.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="no browser">
+        <classes>
+            <class name="com.ccst.tests.SimpleTest">
+                <methods>
+                    <exclude name="test1"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
