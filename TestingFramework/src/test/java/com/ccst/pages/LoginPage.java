@@ -9,6 +9,7 @@ public class LoginPage extends BasePage {
     private final By passwordElement = By.cssSelector("[data-qa='login-password']");
     private final By loginButton = By.cssSelector("[data-qa='login-button']");
     private final By loggedInMessage = By.xpath("//a[text()=' Logged in as ']");
+    private final By loginErrorMessage = By.cssSelector("input[data-qa='login-password'] + p");
 
     public LoginPage(WebDriver driver)
     {
@@ -35,5 +36,10 @@ public class LoginPage extends BasePage {
     public boolean isUserLoggedIn()
     {
         return driver.findElement(loggedInMessage).isDisplayed();
+    }
+
+    public String getLoginErrorMessage()
+    {
+        return driver.findElement(loginErrorMessage).getText();
     }
 }

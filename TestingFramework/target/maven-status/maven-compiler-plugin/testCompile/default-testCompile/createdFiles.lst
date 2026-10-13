@@ -1,7 +1,10 @@
 com\ccst\tests\LoginPageTest.class
 com\ccst\base\BaseTest.class
 com\ccst\exception\FrameworkException.class
+com\ccst\tests\LoginTestForParellelExecution.class
 com\ccst\pages\LoginPage.class
+com\ccst\framework\DriverFactory.class
 com\ccst\tests\SimpleTest.class
 com\ccst\base\BasePage.class
 com\ccst\base\Page.class
+com\ccst\framework\DriverManager.class

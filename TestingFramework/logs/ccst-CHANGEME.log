@@ -1,733 +1,240 @@
-2026-10-12 15:13:26.952 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:34)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 15:13:26.957 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:43)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 15:16:56.191 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:34)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 15:16:56.196 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:43)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 15:18:00.194 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:34)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 15:18:00.264 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:43)
-	at com.ccst.tests.LoginPageTest.main(LoginPageTest.java:53)
-2026-10-12 16:13:43.347 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 09:18:31.509 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 16:15:20.929 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 09:18:36.506 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 09:18:47.393 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 10:07:48.509 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 10:07:48.516 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 10:07:50.561 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 10:08:00.808 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 10:08:01.100 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 10:08:01.101 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:08:01.102 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 10:08:01.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:08:01.121 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 10:08:01.122 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 10:08:01.167 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 10:10:41.145 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 10:10:41.151 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 10:10:42.595 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 10:10:53.764 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 10:10:54.027 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 10:10:54.028 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:10:54.028 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 10:10:54.029 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:10:54.031 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:10:54.032 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 10:10:54.033 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:10:54.033 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 10:10:54.034 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 10:10:54.056 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 10:17:00.239 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 10:17:01.672 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 10:17:11.888 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 10:17:12.110 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 10:17:12.111 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 10:17:12.112 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:17:12.113 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 10:17:12.115 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:17:12.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 10:17:12.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 10:17:12.121 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 10:39:18.487 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 10:39:18.493 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 10:39:27.955 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 10:39:38.638 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 10:39:38.877 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 10:39:38.878 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:39:38.878 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 10:39:38.879 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:39:38.881 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 10:39:38.882 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 10:39:38.883 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 10:39:38.884 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 10:39:38.885 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 10:39:38.910 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 11:58:13.404 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 16:18:46.007 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 11:58:18.672 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 11:58:18.683 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 11:59:19.599 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 16:21:20.419 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 11:59:21.771 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 11:59:21.783 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 11:59:55.350 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 11:59:55.356 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 11:59:57.040 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:00:08.682 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:00:08.999 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 12:00:09.000 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 12:00:09.001 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 12:00:09.002 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 12:00:09.005 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 12:00:09.005 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 12:00:09.007 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 12:00:09.008 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 12:00:09.010 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 12:00:09.034 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 12:01:21.481 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:01:21.490 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:01:21.760 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:01:21.764 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:02:26.556 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:02:26.585 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:02:26.920 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:02:26.925 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:18:22.000 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:18:22.492 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:18:33.570 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:18:33.675 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:19:16.826 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:19:16.938 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 12:19:30.135 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 12:19:30.810 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 14:52:50.330 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 17:32:35.366 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 14:52:50.401 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 14:55:13.749 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelTestng.xml
+
+2026-10-13 14:55:23.349 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 14:55:23.617 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 14:55:42.463 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 14:55:42.471 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 14:57:33.206 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 14:57:33.212 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 14:57:34.857 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 14:57:36.928 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 14:57:36.947 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 14:57:37.604 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 14:57:37.605 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 14:57:37.606 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 14:57:37.607 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 14:57:37.609 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 14:57:37.609 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 14:57:37.610 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 14:57:37.612 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 14:57:37.613 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 14:57:37.637 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 15:06:12.830 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 17:32:35.384 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:32:35.389 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeTest
-2026-10-12 17:32:35.404 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeClass
-2026-10-12 17:32:35.416 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeMethod
-2026-10-12 17:32:35.419 [main] INFO  [main] c.c.t.LoginPageTest - in test1
-2026-10-12 17:32:35.422 [main] INFO  [main] c.c.t.LoginPageTest - in AfterMethod
-2026-10-12 17:32:35.425 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeMethod
-2026-10-12 17:32:35.426 [main] INFO  [main] c.c.t.LoginPageTest - in test2
-2026-10-12 17:32:35.428 [main] INFO  [main] c.c.t.LoginPageTest - in AfterMethod
-2026-10-12 17:32:35.430 [main] INFO  [main] c.c.t.LoginPageTest - in AfterClass
-2026-10-12 17:32:35.433 [main] INFO  [main] c.c.t.LoginPageTest - in AfterTest
-2026-10-12 17:32:35.438 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 17:33:47.272 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 15:06:14.365 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:06:27.364 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:07:55.234 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 17:33:47.291 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeSuite
-2026-10-12 17:33:47.297 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeTest
-2026-10-12 17:33:47.314 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeClass
-2026-10-12 17:33:47.325 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:33:47.327 [main] INFO  [main] com.ccst.tests.SimpleTest - in test1
-2026-10-12 17:33:47.330 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:33:47.332 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:33:47.334 [main] INFO  [main] com.ccst.tests.SimpleTest - in test2
-2026-10-12 17:33:47.336 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:33:47.338 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterClass
-2026-10-12 17:33:47.340 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterTest
-2026-10-12 17:33:47.344 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterSuite
-2026-10-12 17:39:22.172 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeSuite
-2026-10-12 17:39:22.179 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:39:22.185 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeTest
-2026-10-12 17:39:25.143 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:37)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:39:25.148 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:46)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:39:25.154 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeClass
-2026-10-12 17:39:25.156 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:39:25.158 [main] INFO  [main] com.ccst.tests.SimpleTest - in test1
-2026-10-12 17:39:25.159 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:39:25.160 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:39:25.161 [main] INFO  [main] com.ccst.tests.SimpleTest - in test2
-2026-10-12 17:39:25.163 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:39:25.165 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterClass
-2026-10-12 17:39:25.166 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterTest
-2026-10-12 17:39:25.367 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterSuite
-2026-10-12 17:41:13.306 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeSuite
-2026-10-12 17:41:13.311 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:41:13.314 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeTest
-2026-10-12 17:41:15.693 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:38)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:41:15.695 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:47)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:41:15.703 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeClass
-2026-10-12 17:41:15.706 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:41:15.710 [main] INFO  [main] com.ccst.tests.SimpleTest - in test1
-2026-10-12 17:41:15.713 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:41:15.715 [main] INFO  [main] com.ccst.tests.SimpleTest - in BeforeMethod
-2026-10-12 17:41:15.718 [main] INFO  [main] com.ccst.tests.SimpleTest - in test2
-2026-10-12 17:41:15.720 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterMethod
-2026-10-12 17:41:15.722 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterClass
-2026-10-12 17:41:15.723 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterTest
-2026-10-12 17:41:15.982 [main] INFO  [main] com.ccst.tests.SimpleTest - in AfterSuite
-2026-10-12 17:41:15.983 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 17:42:38.394 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:42:38.437 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 17:42:38.444 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 17:42:41.233 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:38)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:42:41.235 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:47)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-2026-10-12 17:42:41.243 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 17:42:41.249 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 17:42:41.253 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 17:42:41.258 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 17:42:41.260 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 17:42:41.261 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 17:42:41.264 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 17:42:41.269 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 17:42:41.274 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 17:42:41.691 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 17:42:41.692 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 17:53:43.607 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 15:08:10.598 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:08:30.173 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:16:33.893 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 15:16:33.899 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 15:16:40.461 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:16:56.101 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:16:59.912 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 15:16:59.913 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 15:16:59.914 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 15:16:59.915 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 15:16:59.917 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 15:16:59.918 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 15:16:59.919 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 15:16:59.920 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 15:16:59.920 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 15:16:59.940 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 15:17:57.931 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 17:53:43.631 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:53:45.908 [main] ERROR [main] c.c.t.LoginPageTest - File not found at path: config/testdata.txt
-java.nio.file.NoSuchFileException: config\testdata.txt
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
-	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:38)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-2026-10-12 17:53:45.910 [main] ERROR [main] c.c.t.LoginPageTest - Framework exception occurred while running LoginPageTest
-com.ccst.exception.FrameworkException: File not found at path: config/testdata.txt
-	at com.ccst.tests.LoginPageTest.loadTestData(LoginPageTest.java:47)
-	at com.ccst.tests.LoginPageTest.validateLoginPage(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-2026-10-12 17:53:45.916 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 17:57:31.833 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 15:18:04.832 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:18:18.626 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:19:46.280 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-13 15:19:46.286 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-13 15:19:53.781 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:20:05.290 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:20:07.327 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
+2026-10-13 15:20:07.329 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 15:20:07.329 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-13 15:20:07.331 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 15:20:07.333 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
+2026-10-13 15:20:07.333 [main] INFO  [main] c.c.t.SimpleTest - in test1
+2026-10-13 15:20:07.334 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
+2026-10-13 15:20:07.336 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
+2026-10-13 15:20:07.337 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-13 15:20:07.362 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-13 15:22:14.207 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelTestng.xml
+
+2026-10-13 15:22:17.298 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:22:19.133 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 15:22:33.570 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-13 15:22:36.635 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-13 16:06:18.145 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 17:57:31.850 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 17:57:33.340 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 17:57:33.340 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 17:57:33.347 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:04:12.717 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 16:06:44.599 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 18:04:12.737 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:04:14.288 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:04:14.295 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:04:14.295 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:04:14.304 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:04:14.608 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:05:14.164 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 16:06:53.160 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 16:07:06.406 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 16:08:13.472 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 18:05:14.183 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:05:15.917 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:05:16.025 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:07:53.833 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 16:10:00.189 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 18:07:53.854 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:07:55.917 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:07:55.932 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:07:56.306 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:27:23.416 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\testng.xml
-
-2026-10-12 18:27:23.440 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:27:23.443 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:27:23.448 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:27:25.225 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:27:25.232 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:27:25.233 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:27:25.238 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:27:25.520 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:27:25.521 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:27:25.522 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:27:25.523 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:27:25.525 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:27:25.526 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:27:25.527 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:27:25.528 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:27:25.529 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:27:25.532 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:27:25.534 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:28:17.481 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\testng.xml
-
-2026-10-12 18:28:17.501 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:28:17.503 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:28:17.509 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:28:19.562 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:28:19.568 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:28:19.568 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:28:19.574 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:28:19.733 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:28:19.735 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:28:19.735 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:28:19.736 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:28:19.738 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:28:19.738 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:28:19.740 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:28:19.741 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:28:19.742 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:28:19.745 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:28:19.747 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:32:56.595 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\testng.xml
-
-2026-10-12 18:32:56.616 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:32:56.618 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:32:58.049 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:32:58.053 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:32:58.053 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:32:58.058 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:32:58.283 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:32:58.285 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:32:58.286 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:32:58.286 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:32:58.288 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:32:58.289 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:32:58.290 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:32:58.291 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:32:58.292 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:36:53.585 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:36:53.588 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:36:53.592 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:36:55.147 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:36:55.156 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:36:55.156 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:36:55.161 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:36:55.590 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:36:55.591 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:36:55.592 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:36:55.594 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:36:55.595 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:36:55.596 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:36:55.597 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:36:55.598 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:36:55.599 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:36:55.621 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:36:55.622 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:37:57.325 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:37:57.328 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:37:57.333 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:37:58.773 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:37:58.782 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:37:58.782 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:37:58.789 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:37:59.003 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:37:59.004 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:37:59.004 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:37:59.006 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:37:59.007 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:37:59.008 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:37:59.009 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:37:59.010 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:37:59.011 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:37:59.031 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:37:59.032 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:40:53.215 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:40:53.218 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:40:56.490 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:40:56.495 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:40:56.495 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:40:56.498 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:40:56.789 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:40:56.790 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:40:56.791 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:40:56.791 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:40:56.792 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:40:56.793 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:40:56.794 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:40:56.798 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:40:56.798 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:56:33.950 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:56:33.953 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:56:33.957 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:56:35.368 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:56:35.374 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:56:35.374 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:56:35.380 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:56:35.679 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:56:35.680 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:56:35.680 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:56:35.682 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:56:35.683 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:56:35.683 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:56:35.684 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:56:35.685 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:56:35.686 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:56:35.717 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:56:35.718 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:57:35.409 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:57:35.412 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:57:35.416 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:57:36.900 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:57:36.910 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:57:36.910 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:57:36.917 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:57:37.194 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:57:37.195 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:57:37.196 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:57:37.197 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:57:37.199 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:57:37.199 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:57:37.200 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:57:37.202 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:57:37.202 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:57:37.224 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:57:37.225 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 18:58:18.634 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 18:58:18.637 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 18:58:18.642 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 18:58:20.012 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 18:58:20.018 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 18:58:20.018 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 18:58:20.021 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 18:58:20.430 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 18:58:20.431 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:58:20.431 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 18:58:20.432 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:58:20.434 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 18:58:20.435 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 18:58:20.436 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 18:58:20.437 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 18:58:20.437 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 18:58:20.466 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 18:58:20.466 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 19:05:52.425 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 19:05:52.428 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 19:05:52.432 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 19:05:54.031 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:05:54.040 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 19:05:54.041 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 19:05:54.048 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:05:54.279 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 19:05:54.281 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 19:05:54.282 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 19:05:54.283 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 19:05:54.286 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 19:05:54.286 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 19:05:54.287 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 19:05:54.289 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 19:05:54.289 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 19:05:54.315 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 19:05:54.316 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 19:06:54.300 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 19:06:54.303 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 19:06:54.307 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 19:06:55.788 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:06:55.796 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 19:06:55.796 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 19:06:55.803 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:06:56.051 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 19:06:56.052 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 19:06:56.053 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 19:06:56.055 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 19:06:56.057 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 19:06:56.058 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-12 19:06:56.063 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 19:06:56.064 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 19:06:56.065 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 19:06:56.092 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 19:06:56.093 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 19:08:38.280 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 19:08:38.283 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-12 19:08:38.287 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-12 19:08:39.840 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:08:39.851 [main] INFO  [main] c.c.t.LoginPageTest - Using file: src/test/java/com/ccst/config/testdata.txt
-2026-10-12 19:08:39.852 [main] INFO  [main] c.c.t.LoginPageTest - Test data loaded successfully.
-2026-10-12 19:08:39.859 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:08:40.060 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-12 19:08:40.061 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-12 19:08:40.062 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-12 19:08:40.066 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-12 19:08:40.069 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-12 19:08:40.070 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-12 19:08:40.096 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 19:08:40.097 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-12 19:28:43.668 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 16:11:47.237 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:28:43.687 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 19:28:45.567 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:28:45.652 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:28:45.877 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 19:29:51.868 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 16:11:49.981 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 16:12:00.706 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 16:12:02.033 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 16:12:11.614 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:19:37.122 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:29:51.886 [main] INFO  [main] c.c.t.LoginPageTest - in BeforeSuite
-2026-10-12 19:29:53.306 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:29:53.323 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:29:53.560 [main] INFO  [main] c.c.t.LoginPageTest - in AfterSuite
-2026-10-12 19:31:21.950 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:20:06.760 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:31:23.787 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:31:23.803 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:32:12.260 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:21:40.201 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:32:13.980 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:32:13.995 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:34:14.875 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:22:25.977 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:34:16.374 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:34:16.391 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:36:45.899 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:29:17.708 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:36:47.349 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:36:53.480 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:37:52.565 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:29:20.453 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:29:33.074 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:29:34.556 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:29:43.914 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:30:31.508 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:37:54.024 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:37:58.803 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:42:00.694 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:31:25.085 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:42:06.281 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:42:14.052 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:46:28.346 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:36:42.292 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:46:29.816 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:46:44.618 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:53:38.977 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:37:53.384 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:53:40.748 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:53:54.750 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-12 19:54:45.906 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-13 19:37:55.732 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:38:07.633 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:38:09.736 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:38:19.961 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:38:35.999 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-12 19:54:47.437 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-12 19:55:00.900 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:38:38.526 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:38:46.700 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:38:47.813 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:39:00.212 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:39:02.352 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:39:12.251 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:39:14.512 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:39:23.346 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-13 19:39:24.579 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-13 19:39:36.045 [main] INFO  [main] c.c.b.BaseTest - Closing the browser

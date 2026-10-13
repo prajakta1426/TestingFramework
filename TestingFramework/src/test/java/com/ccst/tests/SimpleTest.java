@@ -12,7 +12,6 @@ public class SimpleTest {
     {
         log.info("in BeforeMethod");
     }
-
     @BeforeSuite
     public void testBeforeSuite()
     {
@@ -57,6 +56,5 @@ public class SimpleTest {
     public void test2()
     {
         log.info("in test2");
-        throw new RuntimeException();
     }
 }

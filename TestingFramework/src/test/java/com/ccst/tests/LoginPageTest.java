@@ -1,6 +1,8 @@
 package com.ccst.tests;
 
 import com.ccst.base.BaseTest;
+import com.ccst.data.TestData;
+import com.ccst.data.TestUser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -8,10 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.ccst.pages.LoginPage;
 import com.ccst.exception.FrameworkException;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -23,19 +22,43 @@ public class LoginPageTest extends BaseTest {
 
     @BeforeMethod
     public void initPage() {
-//        super.setUp();
+       // super._setUp("chrome");
         loginPage = new LoginPage(driver);
     }
 
-    @Test
-    public void validateLoginPage() throws InterruptedException {
+    @Test(groups = "smoke")
+    public void validateLoginPage(){
 
         driver.get(loginPage.url());
-        Thread.sleep(3000);
         Assert.assertTrue(loginPage.isLoaded());
 
         loginPage.login("message.here0102@gmail.com","null7890");
         Assert.assertTrue(loginPage.isUserLoggedIn());
+    }
+
+    @Test(dataProvider = "invalidsLoginCsv", dataProviderClass = TestData.class , groups = "smoke")
+    public void invalidLoginFromCsv(TestUser user)
+    {
+        invalidLoginShowsError(user);
+    }
+
+
+    @Test(dataProvider = "invalidsLoginExcel", dataProviderClass = TestData.class)
+    public void invalidLoginFromExcel(TestUser user)
+    {
+        invalidLoginShowsError(user);
+    }
+
+
+
+    public void invalidLoginShowsError(TestUser user) {
+
+        driver.get(loginPage.url());
+        Assert.assertTrue(loginPage.isLoaded());
+
+        loginPage.login(user.email(), user.password());
+        String message = loginPage.getLoginErrorMessage();
+        Assert.assertEquals(message,user.expectedMessage());
     }
 
     /*static {
