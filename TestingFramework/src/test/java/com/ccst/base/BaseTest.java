@@ -25,6 +25,10 @@ public abstract class BaseTest {
     public void _setUp(@Optional("chrome") String browser) {
         driver = DriverFactory.create(browser);
         DriverManager.setDriver(driver);
+
+        //driver=DriverManager.getDriver();
+
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         log.info("Browser initialized and window maximized");

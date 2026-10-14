@@ -1,240 +1,904 @@
-2026-10-13 09:18:31.509 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 09:41:07.747 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:41:07.787 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:41:07.793 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:42:31.633 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:42:34.563 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:42:34.571 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:43:12.057 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:43:13.869 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:43:22.083 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:43:22.311 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:43:22.314 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:43:22.316 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test2
+2026-10-14 09:43:22.317 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:43:22.322 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:43:22.324 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test1
+2026-10-14 09:43:22.331 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:43:22.334 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:43:32.123 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:43:33.951 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:43:55.145 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:44:00.600 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:44:00.850 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:44:00.853 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:46:49.699 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:46:49.718 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:46:49.724 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:46:49.754 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:46:49.766 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:46:49.769 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 09:46:49.773 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:46:49.779 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:46:49.780 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test1
+2026-10-14 09:46:49.782 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:46:49.785 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:46:51.245 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:47:04.916 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:47:05.132 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:47:05.134 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:47:54.023 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:47:54.044 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:47:54.051 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:47:54.078 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:47:54.091 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:47:54.094 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test2
+2026-10-14 09:47:54.098 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:47:54.103 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:47:54.104 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test1
+2026-10-14 09:47:54.106 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:47:54.109 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:47:55.718 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:47:55.718 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:47:55.733 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:48:05.127 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:48:05.329 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:48:05.331 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:48:49.838 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:48:49.855 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:48:49.860 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:48:58.070 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:48:58.928 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:48:59.615 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:49:22.584 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:49:24.534 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:49:32.634 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:49:35.163 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:49:40.468 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:49:40.876 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:49:40.877 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:49:40.878 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 09:49:40.879 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:49:40.881 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:49:40.882 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test1
+2026-10-14 09:49:40.883 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:49:40.884 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:49:42.679 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:49:50.314 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:49:50.586 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:49:50.588 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:50:16.532 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:50:16.559 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:50:16.564 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:50:18.357 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:50:18.817 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:50:30.133 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:50:30.396 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:50:32.119 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:50:32.127 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:50:56.620 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:50:59.162 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:51:06.637 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:51:07.324 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:51:07.326 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:51:07.327 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in test2
+2026-10-14 09:51:07.328 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:51:07.330 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:51:07.331 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in test1
+2026-10-14 09:51:07.332 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:51:07.333 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:51:14.827 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:51:15.473 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:51:15.475 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:51:32.928 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:51:32.950 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:51:32.963 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:51:34.395 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:51:47.458 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:51:48.430 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:51:59.533 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:52:01.514 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:52:14.174 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:52:15.487 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:52:29.802 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:52:31.509 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:52:50.637 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:52:52.403 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:52:52.404 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:52:52.405 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 09:52:52.406 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:52:52.409 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:52:52.410 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 09:52:52.411 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:52:52.412 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:52:52.413 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:52:52.415 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:54:55.677 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:54:55.700 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:54:55.707 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:54:57.632 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:54:57.635 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:54:59.174 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:55:00.630 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:55:00.636 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:55:00.639 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:55:00.715 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in test2
+2026-10-14 09:55:00.718 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:55:00.723 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:55:00.724 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in test1
+2026-10-14 09:55:00.725 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:55:00.727 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:55:03.283 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:55:03.284 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:55:03.289 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:56:11.708 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 09:56:11.734 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:56:11.740 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:56:13.918 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:56:14.815 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:56:31.034 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:56:31.529 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:56:32.878 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:56:34.278 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:56:50.138 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:56:50.658 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:56:51.145 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 09:56:51.146 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:56:51.147 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 09:56:51.149 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:56:51.153 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 09:56:51.155 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test1
+2026-10-14 09:56:51.156 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 09:56:51.159 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterClass
+2026-10-14 09:56:51.986 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:57:06.402 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:57:06.608 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 09:57:06.611 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 09:58:50.405 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 09:58:50.412 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 09:58:52.294 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:58:52.916 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:59:11.759 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:59:13.477 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:59:21.793 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:59:23.982 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 09:59:44.330 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 09:59:45.912 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:00:07.504 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:00:07.975 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 10:00:07.976 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:00:07.977 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 10:00:07.978 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:00:07.980 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:00:07.981 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test1
+2026-10-14 10:00:07.982 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:00:07.985 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterClass
+2026-10-14 10:00:12.773 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:00:13.022 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 10:00:13.070 [main] INFO  [main] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 10:00:13.073 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 10:00:54.251 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 10:00:54.268 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 10:00:54.275 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 10:00:56.504 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:00:57.159 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:01:18.414 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:01:28.435 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:01:29.880 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:01:39.462 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:01:42.705 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:01:42.930 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:01:43.175 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 10:01:43.176 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:01:43.177 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 10:01:43.178 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:01:43.180 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:01:43.181 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test1
+2026-10-14 10:01:43.182 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:01:43.184 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterClass
+2026-10-14 10:01:44.244 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:02:07.043 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:02:07.228 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 10:02:07.230 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 10:05:38.572 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 09:18:36.506 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 09:18:47.393 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 10:07:48.509 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 10:07:48.516 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 10:07:50.561 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 10:08:00.808 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 10:08:01.100 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 10:08:01.101 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:08:01.102 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 10:08:01.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:08:01.121 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 10:08:01.122 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 10:08:01.167 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 10:10:41.145 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 10:10:41.151 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 10:10:42.595 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 10:10:53.764 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 10:10:54.027 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 10:10:54.028 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:10:54.028 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 10:10:54.029 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:10:54.031 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:10:54.032 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 10:10:54.033 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:10:54.033 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 10:10:54.034 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 10:10:54.056 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 10:17:00.239 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 10:17:01.672 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 10:17:11.888 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 10:17:12.110 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 10:17:12.111 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 10:17:12.112 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:17:12.113 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 10:17:12.115 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:17:12.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 10:17:12.116 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 10:17:12.121 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 10:39:18.487 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 10:39:18.493 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 10:39:27.955 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 10:39:38.638 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 10:39:38.877 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 10:39:38.878 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:39:38.878 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 10:39:38.879 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:39:38.881 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 10:39:38.882 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 10:39:38.883 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 10:39:38.884 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 10:39:38.885 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 10:39:38.910 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 11:58:13.404 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 10:05:40.123 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:06:00.059 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:06:01.606 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:06:12.742 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:06:15.300 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:06:29.809 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:06:31.041 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:06:46.336 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:06:47.904 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:06:58.727 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:11:28.027 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 11:58:18.672 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 11:58:18.683 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 11:59:19.599 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+2026-10-14 10:11:29.839 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:11:40.645 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:11:41.996 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:11:53.621 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:11:55.312 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:12:04.857 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:12:06.437 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:12:16.207 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:12:17.393 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:12:29.150 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:12:39.316 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
 
-2026-10-13 11:59:21.771 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 11:59:21.783 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 11:59:55.350 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 11:59:55.356 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 11:59:57.040 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:00:08.682 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:00:08.999 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 12:00:09.000 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 12:00:09.001 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 12:00:09.002 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 12:00:09.005 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 12:00:09.005 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 12:00:09.007 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 12:00:09.008 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 12:00:09.010 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 12:00:09.034 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 12:01:21.481 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:01:21.490 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:01:21.760 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:01:21.764 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:02:26.556 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:02:26.585 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:02:26.920 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:02:26.925 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:18:22.000 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:18:22.492 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:18:33.570 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:18:33.675 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:19:16.826 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:19:16.938 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 12:19:30.135 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 12:19:30.810 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 14:52:50.330 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+2026-10-14 10:12:39.336 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 10:12:39.342 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 10:12:40.955 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:12:42.056 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:13:00.355 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:13:00.731 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:13:16.428 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 10:13:16.438 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 10:13:21.007 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:13:23.456 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:13:46.080 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:13:49.775 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:13:56.076 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:13:58.175 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:14:04.746 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:14:05.927 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:14:27.037 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:14:27.187 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 10:14:27.188 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:14:27.189 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test2
+2026-10-14 10:14:27.190 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:14:27.192 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:14:27.193 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in test1
+2026-10-14 10:14:27.193 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:14:27.195 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.t.SimpleTest - in AfterClass
+2026-10-14 10:14:37.075 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:14:37.210 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 10:14:37.239 [main] INFO  [main] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 10:14:37.242 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 10:15:52.721 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
 
-2026-10-13 14:52:50.401 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 14:55:13.749 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 10:15:52.740 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 10:15:52.755 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 10:15:54.266 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:16:04.158 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:16:05.469 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:16:18.213 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:16:20.169 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:16:33.256 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:16:34.468 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:16:44.706 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:16:45.954 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:16:57.416 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:16:57.619 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 10:16:57.620 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:16:57.621 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 10:16:57.621 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:16:57.624 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:16:57.625 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 10:16:57.626 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:16:57.627 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 10:16:57.627 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 10:16:57.630 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 10:17:32.020 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
+
+2026-10-14 10:17:32.042 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 10:17:32.049 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 10:17:34.100 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:17:34.100 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:17:39.731 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:18:00.631 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:18:01.181 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 10:18:01.183 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:18:01.184 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test2
+2026-10-14 10:18:01.185 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:18:01.193 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 10:18:01.194 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test1
+2026-10-14 10:18:01.195 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 10:18:01.198 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterClass
+2026-10-14 10:18:10.673 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:18:12.579 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:18:20.684 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:18:22.307 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:18:46.313 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:18:52.453 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelTestng.xml
 
-2026-10-13 14:55:23.349 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 14:55:23.617 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 14:55:42.463 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 14:55:42.471 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 14:57:33.206 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 14:57:33.212 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 14:57:34.857 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 14:57:36.928 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 14:57:36.947 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 14:57:37.604 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 14:57:37.605 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 14:57:37.606 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 14:57:37.607 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 14:57:37.609 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 14:57:37.609 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 14:57:37.610 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 14:57:37.612 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 14:57:37.613 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 14:57:37.637 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 15:06:12.830 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 10:18:55.405 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:18:57.108 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:11.738 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:19:13.191 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:16.809 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:19:19.652 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:30.333 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:19:33.537 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:37.905 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:19:41.110 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:52.524 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:19:56.761 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:19:56.783 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:20:00.707 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:20:12.076 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:20:14.247 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:20:31.681 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:21:04.255 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:21:06.577 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:21:21.277 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:32:21.728 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\regression.xml
+
+2026-10-14 10:32:23.391 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:32:23.407 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:32:24.589 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:32:24.593 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:32:25.916 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:32:25.925 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:32:26.208 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-14 10:33:05.037 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\regression.xml
+
+2026-10-14 10:33:06.397 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:33:06.412 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:33:06.587 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-14 10:33:42.815 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\regression.xml
+
+2026-10-14 10:33:44.548 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:33:44.565 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:33:44.764 [main] INFO  [main] c.c.t.SimpleTest - in test2
+2026-10-14 10:35:53.181 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 15:06:14.365 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:06:27.364 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:07:55.234 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+2026-10-14 10:35:54.633 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:36:02.997 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:36:04.259 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:36:17.188 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:36:19.460 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:36:30.521 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:36:31.476 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:36:46.264 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:36:47.678 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:37:02.974 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:37:28.558 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\regression.xml
 
-2026-10-13 15:08:10.598 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:08:30.173 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:16:33.893 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 15:16:33.899 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 15:16:40.461 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:16:56.101 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:16:59.912 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 15:16:59.913 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 15:16:59.914 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 15:16:59.915 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 15:16:59.917 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 15:16:59.918 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 15:16:59.919 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 15:16:59.920 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 15:16:59.920 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 15:16:59.940 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 15:17:57.931 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
-  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+2026-10-14 10:37:30.218 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 10:37:30.239 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 10:37:30.427 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 12:43:42.756 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:43:42.820 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:43:43.354 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 12:44:16.264 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelmethodsTestng.xml
 
-2026-10-13 15:18:04.832 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:18:18.626 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:19:46.280 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
-2026-10-13 15:19:46.286 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
-2026-10-13 15:19:53.781 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:20:05.290 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:20:07.327 [main] INFO  [main] c.c.t.SimpleTest - in BeforeClass
-2026-10-13 15:20:07.329 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 15:20:07.329 [main] INFO  [main] c.c.t.SimpleTest - in test2
-2026-10-13 15:20:07.331 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 15:20:07.333 [main] INFO  [main] c.c.t.SimpleTest - in BeforeMethod
-2026-10-13 15:20:07.333 [main] INFO  [main] c.c.t.SimpleTest - in test1
-2026-10-13 15:20:07.334 [main] INFO  [main] c.c.t.SimpleTest - in AfterMethod
-2026-10-13 15:20:07.336 [main] INFO  [main] c.c.t.SimpleTest - in AfterClass
-2026-10-13 15:20:07.337 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
-2026-10-13 15:20:07.362 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
-2026-10-13 15:22:14.207 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 12:44:16.522 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 12:44:16.539 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 12:44:17.962 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:44:28.508 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:44:29.784 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:44:41.348 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:44:43.342 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:44:56.561 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:44:57.610 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:45:07.765 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:45:09.026 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:45:19.449 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:45:19.651 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 12:45:19.652 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 12:45:19.653 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 12:45:19.654 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 12:45:19.657 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 12:45:19.658 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 12:45:19.659 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 12:45:19.660 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 12:45:19.660 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 12:45:19.663 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 12:52:36.801 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelTestng.xml
 
-2026-10-13 15:22:17.298 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:22:19.133 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 15:22:33.570 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
-2026-10-13 15:22:36.635 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
-2026-10-13 16:06:18.145 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 12:52:38.647 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:52:40.962 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:52:55.090 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:52:55.621 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:52:56.549 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:52:59.733 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:15.312 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:15.402 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:17.819 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:20.743 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:34.871 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:35.306 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:36.850 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:38.734 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:51.490 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:52.208 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:53:53.938 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:53:56.404 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:54:11.955 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:54:13.834 [TestNG-tests-2] INFO  [TestNG-tests-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:56:28.601 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 12:56:28.795 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 12:56:28.800 [main] INFO  [main] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 12:56:30.931 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:56:30.931 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:56:32.750 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:56:56.947 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:56:58.673 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:57:06.944 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:57:07.525 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:57:08.911 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 12:57:08.913 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 12:57:08.914 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test2
+2026-10-14 12:57:08.918 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 12:57:08.921 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 12:57:08.922 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in test1
+2026-10-14 12:57:08.923 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 12:57:08.925 [TestNG-test-Login in parallel-3] INFO  [TestNG-test-Login in parallel-3] c.c.t.SimpleTest - in AfterClass
+2026-10-14 12:57:10.251 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:57:37.433 [TestNG-test-Login in parallel-1] INFO  [TestNG-test-Login in parallel-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:57:47.486 [TestNG-test-Login in parallel-2] INFO  [TestNG-test-Login in parallel-2] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:57:47.655 [main] INFO  [main] c.c.t.SimpleTest - in AfterTest
+2026-10-14 12:57:47.657 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 12:59:39.047 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 12:59:39.267 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 12:59:39.282 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 12:59:40.700 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 12:59:51.278 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 12:59:52.364 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:00:00.522 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:00:02.249 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:00:48.681 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:00:50.136 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:01:01.706 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:01:02.731 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:01:20.248 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:01:20.547 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:01:20.548 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:01:20.549 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:01:20.550 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:01:20.554 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:01:20.555 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:01:20.556 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:01:20.557 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:01:20.558 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:01:20.561 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:03:09.590 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 13:03:09.831 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:03:09.845 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:03:11.404 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:03:22.105 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:03:23.417 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:03:33.201 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:03:35.186 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:03:47.226 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:03:48.668 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:04:00.128 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:04:01.730 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:04:18.729 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:04:18.878 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:04:18.878 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:04:18.879 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:04:18.880 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:04:18.883 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:04:18.884 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:04:18.885 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:04:18.886 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:04:18.887 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:04:18.890 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:05:12.047 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 13:05:12.285 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:05:12.300 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:05:13.673 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:05:23.434 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:05:24.445 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:05:34.524 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:05:36.323 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:05:46.178 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:05:47.140 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:06:17.932 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:06:19.163 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:07:25.681 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:07:26.106 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:07:26.107 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:07:26.108 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:07:26.109 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:07:26.112 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:07:26.113 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:07:26.114 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:07:26.115 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:07:26.117 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:07:26.121 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:07:59.199 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 13:07:59.396 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:07:59.409 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:08:00.871 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:08:33.644 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:08:34.765 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:08:44.967 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:08:46.794 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:08:57.250 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:08:58.668 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:09:08.273 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:09:09.354 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:10:14.915 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:10:15.735 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:10:15.736 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:10:15.737 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:10:15.738 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:10:15.741 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:10:15.742 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:10:15.743 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:10:15.744 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:10:15.745 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:10:15.747 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:12:28.389 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 13:12:28.638 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:12:28.652 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:12:30.190 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:12:40.987 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:12:42.434 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:12:52.714 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:12:54.500 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:13:04.831 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:13:06.247 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:13:15.474 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:13:16.741 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:13:36.825 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AutomationFramewrork\TestingFramework\suites\parallelMethodstTestng.xml
+
+2026-10-14 13:13:37.010 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:13:37.023 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:13:38.510 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:13:48.700 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:13:50.840 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:13:59.643 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:14:01.473 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:14:11.602 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:14:12.859 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:14:23.691 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:14:24.878 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:14:38.120 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:14:38.336 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:14:38.337 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:14:38.337 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:14:38.338 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:14:38.341 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:14:38.342 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:14:38.342 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:14:38.343 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:14:38.343 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:14:38.346 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:19:03.939 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:19:03.951 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:19:05.877 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:19:16.255 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:19:17.423 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:19:31.471 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:19:33.287 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:19:44.898 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:19:46.189 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:19:59.195 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:20:00.483 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:20:13.109 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:20:13.422 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:20:13.424 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:20:13.425 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:20:13.426 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:20:13.431 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:20:13.432 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:20:13.434 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:20:13.435 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:20:13.436 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:20:13.456 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:20:13.458 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:24:23.491 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:24:23.504 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:24:25.070 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:24:32.362 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:24:33.305 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:24:39.510 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:24:41.217 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:24:47.634 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:24:48.851 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:24:56.098 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:24:57.505 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:25:07.437 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:25:07.587 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:25:07.588 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:25:07.589 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:25:07.590 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:25:07.593 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:25:07.593 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:25:07.594 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:25:07.595 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:25:07.596 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:25:07.613 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:25:07.615 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:25:28.833 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:25:28.845 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:25:30.379 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:25:45.244 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:25:46.668 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:25:56.139 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:25:57.923 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:26:09.480 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:26:10.945 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:26:23.087 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:26:24.401 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:26:50.965 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:26:50.979 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:26:52.680 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:27:00.825 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:27:02.451 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:27:13.529 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:27:15.203 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:27:25.055 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:27:26.426 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:27:36.418 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:27:37.531 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:27:53.241 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:27:53.459 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:27:53.460 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:27:53.460 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:27:53.461 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:27:53.464 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:27:53.465 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:27:53.465 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:27:53.466 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:27:53.467 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:27:53.484 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:27:53.486 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:30:20.454 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:30:20.466 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:30:22.225 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:30:32.316 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:30:33.823 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:30:44.156 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:30:46.204 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:30:57.437 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:30:58.572 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:31:11.402 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:31:12.740 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:31:31.362 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:31:31.529 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:31:31.530 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:31:31.530 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:31:31.532 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:31:31.535 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:31:31.535 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:31:31.536 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:31:31.537 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:31:31.538 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:31:31.555 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:31:31.557 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:33:03.441 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:33:03.457 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:33:03.545 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:33:03.553 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:33:04.226 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:33:04.231 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:33:04.237 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:33:04.240 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:33:04.241 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:33:04.243 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:33:04.247 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:33:04.251 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:33:04.252 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:33:04.253 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:33:04.254 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:33:04.255 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:33:04.281 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:33:04.285 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 13:41:10.821 [main] INFO  [main] c.c.t.SimpleTest - in BeforeSuite
+2026-10-14 13:41:10.835 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeTest
+2026-10-14 13:41:12.342 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:41:19.150 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:41:20.431 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:41:28.332 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:41:30.409 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:41:36.654 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:41:37.658 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:41:42.522 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:41:43.830 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 13:41:51.819 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.b.BaseTest - Closing the browser
+2026-10-14 13:41:51.960 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeClass
+2026-10-14 13:41:51.961 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:41:51.962 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test2
+2026-10-14 13:41:51.963 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:41:51.966 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in BeforeMethod
+2026-10-14 13:41:51.967 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in test1
+2026-10-14 13:41:51.968 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterMethod
+2026-10-14 13:41:51.969 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterClass
+2026-10-14 13:41:51.969 [TestNG-tests-1] INFO  [TestNG-tests-1] c.c.t.SimpleTest - in AfterTest
+2026-10-14 13:41:51.988 [TestNG-tests-1] INFO  [TestNG-tests-1] o.t.r.TestHTMLReporter - [TestHTMLReporter] The system cannot find the path specified
+2026-10-14 13:41:51.990 [main] INFO  [main] c.c.t.SimpleTest - in AfterSuite
+2026-10-14 18:57:22.515 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 16:06:44.599 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 18:57:22.577 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 18:58:23.238 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 16:06:53.160 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 16:07:06.406 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 16:08:13.472 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 18:58:28.233 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 18:58:38.298 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 18:59:39.501 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 16:10:00.189 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 18:59:41.048 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 18:59:41.076 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 18:59:51.758 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 16:11:47.237 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 18:59:53.200 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:00:03.277 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:01:16.808 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 16:11:49.981 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 16:12:00.706 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 16:12:02.033 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 16:12:11.614 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:19:37.122 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:01:18.166 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:01:28.210 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:04:36.517 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:20:06.760 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:04:38.085 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:04:48.161 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:05:16.720 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:21:40.201 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:05:18.187 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:05:36.795 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:09:28.152 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:22:25.977 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:09:29.582 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:09:40.967 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:11:04.065 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:29:17.708 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:11:05.545 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:11:14.581 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:14:28.693 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:29:20.453 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:29:33.074 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:29:34.556 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:29:43.914 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:30:31.508 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:14:30.325 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:14:31.605 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:14:46.837 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:16:29.488 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:31:25.085 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:16:30.825 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:16:33.248 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:16:47.410 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:17:12.238 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:36:42.292 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:17:13.715 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:17:16.373 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:17:26.399 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:17:33.407 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:37:53.384 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:17:35.860 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:17:52.704 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:19:43.802 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:37:55.732 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:38:07.633 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:38:09.736 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:38:19.961 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:38:35.999 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+2026-10-14 19:19:45.400 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:19:58.142 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:21:46.588 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
   C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
 
-2026-10-13 19:38:38.526 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:38:46.700 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:38:47.813 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:39:00.212 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:39:02.352 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:39:12.251 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:39:14.512 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:39:23.346 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
-2026-10-13 19:39:24.579 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
-2026-10-13 19:39:36.045 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:21:48.161 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:22:00.071 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:24:03.881 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:24:05.796 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:24:15.124 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:24:26.255 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:24:27.761 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:24:53.249 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:25:33.110 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:25:34.605 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:25:48.313 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:34:53.743 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:34:55.150 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:35:06.589 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:35:07.957 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:35:20.294 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:36:18.602 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:36:20.460 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:36:35.102 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:37:53.041 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:37:54.873 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:38:06.693 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:39:08.646 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:39:15.786 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:39:17.631 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:39:32.739 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:39:34.250 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:39:48.405 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:43:57.740 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:43:59.079 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:44:12.173 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:44:13.282 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:44:25.691 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:45:26.798 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:45:28.385 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:45:50.468 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:45:52.223 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:46:03.237 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:48:15.913 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:48:17.624 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:48:29.625 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:48:31.437 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:48:44.708 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:49:28.945 [main] INFO  [main] o.t.i.Utils - [TestNG] Running:
+  C:\Users\CCST\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-10-14 19:49:30.390 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:49:44.459 [main] INFO  [main] c.c.b.BaseTest - Closing the browser
+2026-10-14 19:49:45.921 [main] INFO  [main] c.c.b.BaseTest - Browser initialized and window maximized
+2026-10-14 19:49:57.990 [main] INFO  [main] c.c.b.BaseTest - Closing the browser

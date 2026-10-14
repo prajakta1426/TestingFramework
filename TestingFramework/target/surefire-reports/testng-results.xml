@@ -1,86 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-13T15:19:46 IST" name="CCST Regression" finished-at="2026-10-13T15:20:07 IST" duration-ms="21054">
+  <suite started-at="2026-10-14T13:41:10 IST" name="CCST Parallel " finished-at="2026-10-14T13:41:51 IST" duration-ms="41138">
     <groups>
+      <group name="smoke">
+        <method signature="SimpleTest.test2()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" name="test2" class="com.ccst.tests.SimpleTest"/>
+        <method signature="LoginPageTest.validateLoginPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" name="validateLoginPage" class="com.ccst.tests.LoginPageTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-10-13T15:19:46 IST" name="Login(browser)" finished-at="2026-10-13T15:20:07 IST" duration-ms="21054">
+    <test started-at="2026-10-14T13:41:10 IST" name="Login in parallel" finished-at="2026-10-14T13:41:51 IST" duration-ms="41138">
       <class name="com.ccst.tests.SimpleTest">
-        <test-method is-config="true" signature="testBeforeSuite()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:19:46 IST" name="testBeforeSuite" finished-at="2026-10-13T15:19:46 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="testBeforeSuite()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:10 IST" name="testBeforeSuite" finished-at="2026-10-14T13:41:10 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeSuite -->
-        <test-method is-config="true" signature="testBeforeTest()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:19:46 IST" name="testBeforeTest" finished-at="2026-10-13T15:19:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testBeforeTest()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:10 IST" name="testBeforeTest" finished-at="2026-10-14T13:41:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeTest -->
-        <test-method is-config="true" signature="testBeforeClass()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testBeforeClass" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testBeforeClass()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testBeforeClass" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeClass -->
-        <test-method is-config="true" signature="testBeforeMethod()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testBeforeMethod" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBeforeMethod -->
-        <test-method signature="test2()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="test2" finished-at="2026-10-13T15:20:07 IST" duration-ms="0" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="test2" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testAfterMethod" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAfterMethod -->
-        <test-method signature="test1()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="test1" finished-at="2026-10-13T15:20:07 IST" depends-on-methods="com.ccst.tests.SimpleTest.test2" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="testBeforeMethod()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testBeforeMethod" finished-at="2026-10-13T15:20:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testBeforeMethod()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testBeforeMethod" finished-at="2026-10-14T13:41:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeMethod -->
-        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testAfterMethod" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testAfterMethod" finished-at="2026-10-14T13:41:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAfterMethod -->
-        <test-method is-config="true" signature="testAfterClass()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testAfterClass" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testBeforeMethod()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testBeforeMethod" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="test1" finished-at="2026-10-14T13:41:51 IST" depends-on-methods="com.ccst.tests.SimpleTest.test2" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testAfterMethod" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method is-config="true" signature="testAfterClass()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testAfterClass" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAfterClass -->
-        <test-method is-config="true" signature="testAfterTest()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testAfterTest" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testAfterTest()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testAfterTest" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAfterTest -->
-        <test-method is-config="true" signature="testAfterSuite()[pri:0, instance:com.ccst.tests.SimpleTest@58be6e8]" started-at="2026-10-13T15:20:07 IST" name="testAfterSuite" finished-at="2026-10-13T15:20:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testAfterSuite()[pri:0, instance:com.ccst.tests.SimpleTest@5812f68b]" started-at="2026-10-14T13:41:51 IST" name="testAfterSuite" finished-at="2026-10-14T13:41:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAfterSuite -->
       </class> <!-- com.ccst.tests.SimpleTest -->
       <class name="com.ccst.tests.LoginPageTest">
-        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@6af9fcb2]" started-at="2026-10-13T15:19:46 IST" name="_setUp" finished-at="2026-10-13T15:19:53 IST" duration-ms="7467" status="PASS">
+        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:10 IST" name="_setUp" finished-at="2026-10-14T13:41:12 IST" duration-ms="1456" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- _setUp -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@6af9fcb2]" started-at="2026-10-13T15:19:53 IST" name="initPage" finished-at="2026-10-13T15:19:53 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:12 IST" name="initPage" finished-at="2026-10-14T13:41:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="validateLoginPage()[pri:0, instance:com.ccst.tests.LoginPageTest@6af9fcb2]" started-at="2026-10-13T15:19:53 IST" name="validateLoginPage" finished-at="2026-10-13T15:20:05 IST" duration-ms="11503" status="PASS">
+        <test-method signature="invalidLoginFromCsv(com.ccst.data.TestUser)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:12 IST" name="invalidLoginFromCsv" data-provider="invalidsLoginCsv" finished-at="2026-10-14T13:41:19 IST" duration-ms="6799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginFromCsv -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:19 IST" name="tearDown" finished-at="2026-10-14T13:41:19 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:19 IST" name="_setUp" finished-at="2026-10-14T13:41:20 IST" duration-ms="1127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:20 IST" name="initPage" finished-at="2026-10-14T13:41:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="invalidLoginFromCsv(com.ccst.data.TestUser)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:20 IST" name="invalidLoginFromCsv" data-provider="invalidsLoginCsv" finished-at="2026-10-14T13:41:28 IST" duration-ms="7899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[message.here0102@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginFromCsv -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:28 IST" name="tearDown" finished-at="2026-10-14T13:41:28 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:29 IST" name="_setUp" finished-at="2026-10-14T13:41:30 IST" duration-ms="1288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setUp -->
+        <test-method signature="invalidLoginFromExcel(com.ccst.data.TestUser)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:30 IST" name="invalidLoginFromExcel" data-provider="invalidsLoginExcel" finished-at="2026-10-14T13:41:36 IST" duration-ms="6243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginFromExcel -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:30 IST" name="initPage" finished-at="2026-10-14T13:41:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:36 IST" name="tearDown" finished-at="2026-10-14T13:41:36 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:36 IST" name="_setUp" finished-at="2026-10-14T13:41:37 IST" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:37 IST" name="initPage" finished-at="2026-10-14T13:41:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="invalidLoginFromExcel(com.ccst.data.TestUser)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:37 IST" name="invalidLoginFromExcel" data-provider="invalidsLoginExcel" finished-at="2026-10-14T13:41:42 IST" duration-ms="4862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[message.here0102@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:42 IST" name="tearDown" finished-at="2026-10-14T13:41:42 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="_setUp(java.lang.String)[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:42 IST" name="_setUp" finished-at="2026-10-14T13:41:43 IST" duration-ms="1172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:43 IST" name="initPage" finished-at="2026-10-14T13:41:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="validateLoginPage()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:43 IST" name="validateLoginPage" finished-at="2026-10-14T13:41:51 IST" duration-ms="7987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@6af9fcb2]" started-at="2026-10-13T15:20:05 IST" name="tearDown" finished-at="2026-10-13T15:20:07 IST" duration-ms="2035" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccst.tests.LoginPageTest@7a1a14a4]" started-at="2026-10-14T13:41:51 IST" name="tearDown" finished-at="2026-10-14T13:41:51 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ccst.tests.LoginPageTest -->
-    </test> <!-- Login(browser) -->
-  </suite> <!-- CCST Regression -->
+    </test> <!-- Login in parallel -->
+  </suite> <!-- CCST Parallel  -->
 </testng-results>

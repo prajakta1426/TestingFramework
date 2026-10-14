@@ -1,6 +1,7 @@
 package com.ccst.tests;
 
 import com.ccst.base.BaseTest;
+import com.ccst.components.HeaderComponent;
 import com.ccst.data.TestData;
 import com.ccst.data.TestUser;
 import org.apache.logging.log4j.LogManager;
@@ -26,6 +27,7 @@ public class LoginPageTest extends BaseTest {
         loginPage = new LoginPage(driver);
     }
 
+
     @Test(groups = "smoke")
     public void validateLoginPage(){
 
@@ -36,7 +38,7 @@ public class LoginPageTest extends BaseTest {
         Assert.assertTrue(loginPage.isUserLoggedIn());
     }
 
-    @Test(dataProvider = "invalidsLoginCsv", dataProviderClass = TestData.class , groups = "smoke")
+    @Test(dataProvider = "invalidsLoginCsv", dataProviderClass = TestData.class)
     public void invalidLoginFromCsv(TestUser user)
     {
         invalidLoginShowsError(user);
@@ -49,8 +51,6 @@ public class LoginPageTest extends BaseTest {
         invalidLoginShowsError(user);
     }
 
-
-
     public void invalidLoginShowsError(TestUser user) {
 
         driver.get(loginPage.url());
@@ -60,6 +60,8 @@ public class LoginPageTest extends BaseTest {
         String message = loginPage.getLoginErrorMessage();
         Assert.assertEquals(message,user.expectedMessage());
     }
+
+
 
     /*static {
         try {

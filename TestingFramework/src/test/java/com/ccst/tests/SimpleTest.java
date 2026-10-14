@@ -52,7 +52,7 @@ public class SimpleTest {
     {
         log.info("in test1");
     }
-    @Test
+    @Test(groups = "smoke")
     public void test2()
     {
         log.info("in test2");

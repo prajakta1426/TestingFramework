@@ -3,6 +3,7 @@ package com.ccst.pages;
 import com.ccst.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
     private final By emailElement = By.cssSelector("[data-qa='login-email']");
@@ -10,6 +11,8 @@ public class LoginPage extends BasePage {
     private final By loginButton = By.cssSelector("[data-qa='login-button']");
     private final By loggedInMessage = By.xpath("//a[text()=' Logged in as ']");
     private final By loginErrorMessage = By.cssSelector("input[data-qa='login-password'] + p");
+    //private final By loginErrorMessage=By.cssSelector("#form > div > div > div.col-sm-4.col-sm-offset-1 > div > form > p");
+
 
     public LoginPage(WebDriver driver)
     {
@@ -25,6 +28,7 @@ public class LoginPage extends BasePage {
     public boolean isLoaded(){
         return driver.findElement(loginButton).isEnabled();
     }
+
 
     public void login(String email, String password)
     {

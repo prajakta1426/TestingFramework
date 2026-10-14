@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CCST Cross-Browser" verbose="1" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.ccst.reports.ExtentTestListener"></listener>
+    </listeners>
     <test name="Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>

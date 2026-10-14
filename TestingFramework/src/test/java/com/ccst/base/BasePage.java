@@ -1,32 +1,44 @@
 package com.ccst.base;
 
+import com.ccst.components.HeaderComponent;
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.function.BooleanSupplier;
 
 public abstract class BasePage implements Page {
 
-    protected final Logger log= LogManager.getLogger(getClass());
+    protected final Logger log = LogManager.getLogger(getClass());
     public WebDriver driver;
+    public WebDriverWait wait;
 
-    public BasePage(WebDriver driver)
-    {
-        this.driver=driver;
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    protected void click(By locator)
-    {
+    protected void click(By locator) {
         driver.findElement(locator).click();
     }
 
-    protected void enterText(By locator, String text)
-    {
+    protected void enterText(By locator, String text) {
         driver.findElement(locator).sendKeys(text);
     }
 
-    protected boolean validateContent(By locator, String text)
-    {
+    protected boolean validateContent(By locator, String text) {
         return driver.findElement(locator).getText().equals(text);
+    }
+
+    protected void clinkLink(By locator, BooleanSupplier arrived) {
+        click(locator);
+        wait.until(ignored -> arrived.getAsBoolean());
+    }
+
+    public HeaderComponent header() {
+        return new HeaderComponent(driver);
     }
 }
